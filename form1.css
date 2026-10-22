@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.head1{
+    display: flex;
+    background-color: cyan;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    gap: 100px;
+    font-size: larger ;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+
+}
+
+.nav1{
+    gap:30px;
+    display: flex;
+
+}
+.logo img{
+   width: 100px;
+   border-radius: 50px;
+   background-color: cyan;
+}
+
+body{
+    background-image: url(bg.jpg);
+}
+
+
+    
+
+.container{
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.ol{
+    font-size: xx-large;
+}
+
+.more{
+    color: white;
+}
