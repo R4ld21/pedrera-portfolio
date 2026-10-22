@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="2.css">
+
+</head>
+<body>
+    <a href="../index.html#projects" style="position:fixed;bottom:16px;left:16px;z-index:2000;background:#fff;color:#0b2545;padding:8px 14px;border-radius:30px;text-decoration:none;font-family:sans-serif;font-size:14px;border:1px solid #0b2545;">&larr; Back to portfolio</a>
+   <header class="head2">
+        <h1>MY STUDENT REGISTRATION</h1>
+        <p>Welcome to my personal Student Portal</p>
+    </header>
+
+    <nav  class="nav1">
+    <a class="home"   href="peds.html">HOME</a>
+    <a class="regis"  href="regis.html">REGISTRATION</a>
+    <a class="grades" href="grades.html">GRADES</a>
+    <a class="profile" href="profile.html">PROFILE</a>
+    </nav>
+
+    <section class="sec1">
+        <H1>STUDENT REGISTRATION FORM</H1>
+      <form>
+    Student Name:<input type="text" name="first_name" />
+    <br>
+    Email:<input type="text" name="last_name" />
+    <br>
+    Password:<input type="text" name="first_name" />
+    <br>
+      </form>
+
+    <form>
+    <p>Gender</p>
+    <input type="radio" name="sex" value="Male"> Male
+    <input type="radio" name="sex" value="Female"> Female
+    </form>
+    
+
+   <form>
+    <p>Course</p>
+    <select name="dropdown">
+    <option value="" disabled selected>Select Course</option>
+    <option value="BSIT" >BSIT</option>
+    <option value="BSCS">BSCS</option>
+    <option value="BSCE" >BSCE</option>
+    <option value="BSHM">BSHM</option>
+    </select>
+    </form>
+    <br>
+    
+    
+   <form>
+    <p>skills</p>
+    <input type="checkbox" name="HTML" value="on"> HTML
+    <input type="checkbox" name="JAVA" value="on"> JAVA
+    <input type="checkbox" name="CSS" value="on"> CSS
+    </form>
+    
+
+    <br>
+    <form>
+    <p>Picture</p>
+    <input type="file" name="fileupload" accept="image/*" />
+    </form>
+    
+    
+    <br>
+    Description : <br />
+        <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea>
+        <br>
+        
+
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset"  value="Reset" />
+        <input type="button" name="ok" value="OK"  />
+        <input type="image" name="imagebutton" src="/html/images/logo.png" />
+        </form>
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <footer class="foot1">
+    <h1>@ 2026 PERSONAL WEBSITE</h1>
+</footer>
+
+
+    
+</body>
+</html>

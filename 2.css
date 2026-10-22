@@ -1,0 +1,114 @@
+.head1{
+    
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.nav1{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+   
+}
+
+.div1{
+   background-color: aquamarine;
+   padding: 100px;
+   flex: 3;
+}
+
+.div2{
+    background-color: darkcyan;
+    flex: 1;
+    justify-content: center;
+    
+
+
+}
+.container{
+    display: flex;
+}
+
+.foot1{
+    background-color: dimgray;
+    text-align: center;
+}
+
+.head2{
+    background-color: aqua;
+     text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sec1{
+    margin: auto;
+    width: 700px;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    border: solid black;
+    padding: 50px;
+}
+
+.head3{
+    background-color: cyan;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tr1{
+    background-color: aliceblue ;
+}
+
+.tr2{
+    background-color: antiquewhite;
+}
+
+.tr3{
+    background-color: aqua;
+}
+
+.tr4{
+    background-color:aquamarine ;
+}
+
+.tr5{
+    background-color: azure;
+}
+
+.sec4{
+    background-color: burlywood;
+    padding: 100px;
+}
+
+.head1{
+    background-color: cyan;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.box{
+    border-radius: 100px;
+    border: solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.dev1{
+   background-color: aquamarine;
+   padding: 100px;
+   flex: 3;
+}
+
+.dev2{
+    background-color: darkcyan;
+    flex: 1;
+    justify-content: center;
+}
